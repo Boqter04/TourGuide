@@ -1,0 +1,78 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\Alps1.jpg" />
+    <None Remove="Images\Alps2.jpg" />
+    <None Remove="Images\Alps3.jpg" />
+    <None Remove="Images\AngkorWat1.jpg" />
+    <None Remove="Images\AngkorWat1.png" />
+    <None Remove="Images\AngkorWat4.jpeg" />
+    <None Remove="Images\Bali1.jpg" />
+    <None Remove="Images\Bali2.jpg" />
+    <None Remove="Images\Bali3.png" />
+    <None Remove="Images\GWC2.jpg" />
+    <None Remove="Images\GWC3.jpg" />
+    <None Remove="Images\GWC4.jpg" />
+    <None Remove="Images\ME1.jpg" />
+    <None Remove="Images\ME2.jpg" />
+    <None Remove="Images\ME3.jpg" />
+    <None Remove="Images\ME4.jpg" />
+    <None Remove="Images\Paris1.jpg" />
+    <None Remove="Images\Paris2.jpg" />
+    <None Remove="Images\Paris3.jpg" />
+    <None Remove="Images\Rome1.jpg" />
+    <None Remove="Images\Rome2.jpg" />
+    <None Remove="Images\Rome3.jpg" />
+    <None Remove="Images\Svalbard2.jpg" />
+    <None Remove="Images\Svalbard3.jpg" />
+    <None Remove="Images\Tokyo1.jpg" />
+    <None Remove="Images\Tokyo2.jpg" />
+    <None Remove="Images\Tokyo3.jpg" />
+    <None Remove="Images\Tromso1.jpg" />
+    <None Remove="Images\Tromso2.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="PDFsharp" Version="6.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\Alps1.jpg" />
+    <Resource Include="Images\Alps2.jpg" />
+    <Resource Include="Images\Alps3.jpg" />
+    <Resource Include="Images\AngkorWat1.png" />
+    <Resource Include="Images\AngkorWat4.jpeg" />
+    <Resource Include="Images\Bali1.jpg" />
+    <Resource Include="Images\Bali2.jpg" />
+    <Resource Include="Images\Bali3.png" />
+    <Resource Include="Images\GWC2.jpg" />
+    <Resource Include="Images\GWC3.jpg" />
+    <Resource Include="Images\GWC4.jpg" />
+    <Resource Include="Images\ME1.jpg" />
+    <Resource Include="Images\ME2.jpg" />
+    <Resource Include="Images\ME3.jpg" />
+    <Resource Include="Images\ME4.jpg" />
+    <Resource Include="Images\Paris1.jpg" />
+    <Resource Include="Images\Paris2.jpg" />
+    <Resource Include="Images\Paris3.jpg" />
+    <Resource Include="Images\Rome1.jpg" />
+    <Resource Include="Images\Rome2.jpg" />
+    <Resource Include="Images\Rome3.jpg" />
+    <Resource Include="Images\Svalbard2.jpg" />
+    <Resource Include="Images\Svalbard3.jpg" />
+    <Resource Include="Images\Tokyo1.jpg" />
+    <Resource Include="Images\Tokyo2.jpg" />
+    <Resource Include="Images\Tokyo3.jpg" />
+    <Resource Include="Images\Tromso1.jpg" />
+    <Resource Include="Images\Tromso2.png" />
+  </ItemGroup>
+
+</Project>
